@@ -1,0 +1,179 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #222;
+    color: white;
+    padding: 25px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 12px 0;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+#navbar li {
+    margin: 0;
+}
+
+#navbar a {
+    background-color: #666;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+#navbar a:hover {
+    background-color: #ff9800;
+    transform: scale(1.08);
+}
+
+/* Main Content */
+#main-body {
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* List Styling */
+ul, ol {
+    padding-left: 25px;
+}
+
+ul li, ol li {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #222;
+    color: white;
+}
+
+/* Contact Form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #222;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* Container for lists */
+.lists-container {
+    display: flex;
+    justify-content: space-between; /* Space between lists */
+    gap: 40px; /* Adds spacing between the lists */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Individual list sections */
+.list-section {
+    flex: 1; /* Each list takes up equal width */
+    min-width: 300px; /* Prevents lists from shrinking too much */
+}
+.custom-navbar {
+    background-color: #222 !important;
+  }
+  
